@@ -15,12 +15,15 @@ export default function About() {
 			id='about'
 		>
 			<SectionHeading>About me</SectionHeading>
-			<p className='mb-3'>
-				After graduating with a degree in{' '}
-				<span className='font-medium'>Accounting</span>, I decided to
-				pursue my passion for programming. I enrolled in a coding
-				bootcamp and learned{' '}
-				<span className='font-medium'>full-stack web development</span>.{' '}
+			<p>
+				<span>
+					I&apos; a driven high school student who started web
+					development 1 year ago. What you should know about me is
+					that I'm an average programmer. What I bring to the tables
+					is my drive to learn and my work ethic, but also my
+					communication skills, something that I've spoken to many
+					recruiters about as a pain point when finding candidates.
+				</span>
 				<span className='italic'>My favorite part of programming</span>{' '}
 				is the problem-solving aspect. I{' '}
 				<span className='underline'>love</span> the feeling of finally
