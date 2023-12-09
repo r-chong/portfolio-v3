@@ -19,10 +19,11 @@ export default function About() {
 				<span>
 					I&apos; a driven high school student who started web
 					development 1 year ago. What you should know about me is
-					that I'm an average programmer. What I bring to the tables
-					is my drive to learn and my work ethic, but also my
-					communication skills, something that I've spoken to many
-					recruiters about as a pain point when finding candidates.
+					that I&apos;m an average programmer. What I bring to the
+					tables is my drive to learn and my work ethic, but also my
+					communication skills, something that I&apos;ve spoken to
+					many recruiters about as a pain point when finding
+					candidates.
 				</span>
 				<span className='italic'>My favorite part of programming</span>{' '}
 				is the problem-solving aspect. I{' '}
@@ -43,8 +44,8 @@ export default function About() {
 				dog. I also enjoy{' '}
 				<span className='font-medium'>learning new things</span>. I am
 				currently learning about{' '}
-				<span className='font-medium'>history and philosophy</span>. I'm
-				also learning how to play the guitar.
+				<span className='font-medium'>history and philosophy</span>.
+				I&apos;m also learning how to play the guitar.
 			</p>
 		</motion.section>
 	);
