@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import lexploraImg from "@/public/Lexplora.png";
+import htnImg from "@/public/HackTheNorth2023.png";
+import spottyImg from "@/public/Spotty.png";
 
 // will change these to external links
 export const links = [
@@ -65,25 +65,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Lexplora",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Lexplora is a 'duolingo for anything' app that helps you learn any subject by providing a prompt. I was the front-end developer in charge of creating the UI and lesson components.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Langchain","Neo4j"],
+    imageUrl: lexploraImg,
   },
   {
-    title: "rmtDev",
+    title: "Hawkeye",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Project for Hack The North 2023 that uses the AdHawk MindLink to allow blind/visually impaired people to know what the lecturer is writing on the board, using OCR and Google Cloud.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: htnImg,
   },
   {
-    title: "Word Analytics",
+    title: "Spotify Clone",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "A full stack app using Spotify's Official SDK. It plays music, retrieves lyrics, and censors profanity (togglable). I also added new themes",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: spottyImg,
   },
 ] as const;
 
