@@ -70,14 +70,6 @@ export default function Intro() {
 				<Link
 					href='mailto:reesechong72@gmail.com'
 					className='flex gap-2 px-4 py-2 text-lg font-medium text-white transition-all bg-black rounded-full shadow-md outline-none hover:bg-gray-900 focus:scale-110 hover:scale-110 active:scale-105 cursor:pointer'
-					initial={{ opacity: 0, scale: 0 }}
-					animate={{ opacity: 1, scale: 1 }}
-					transition={{
-						type: 'spring',
-						delay: 0.2,
-						stiffness: 125,
-						duration: 0.7,
-					}}
 				>
 					<span className='flex items-center gap-2 group'>
 						Copy email address{' '}
