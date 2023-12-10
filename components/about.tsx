@@ -17,10 +17,10 @@ export default function About() {
 			<SectionHeading>About me</SectionHeading>
 			<p>
 				<span>
-					I&apos;m Reese, a driven high school student passionate
-					about software development. I started web development 1 year
-					ago and have since built 4 solo projects and worked in 8
-					group projects. {'  '}
+					Hello! I&apos;m Reese, a driven high school student
+					passionate about software development. I started web
+					development 1 year ago and have since built 4 solo projects
+					and worked in 8 group projects. {'  '}
 				</span>
 				<br />
 				<br />
