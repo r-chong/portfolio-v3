@@ -17,10 +17,16 @@ export default function About() {
 			<SectionHeading>About me</SectionHeading>
 			<p>
 				<span>
-					I&apos;m a driven high school student who started web
-					development 1 year ago. {'  '}
+					I&apos;m Reese, a driven high school student passionate
+					about software development. I started web development 1 year
+					ago and have since built 4 solo projects and worked in 8
+					group projects. {'  '}
 				</span>
-				<span className='italic'>My favorite part of programming</span>{' '}
+				<br />
+				<br />
+				<span className='italic'>
+					My favorite part of programming
+				</span>{' '}
 				is the problem-solving aspect. I{' '}
 				<span className='underline'>love</span> the feeling of finally
 				figuring out a solution to a problem. My core stack is{' '}
