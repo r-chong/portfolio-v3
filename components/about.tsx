@@ -17,35 +17,37 @@ export default function About() {
 			<SectionHeading>About me</SectionHeading>
 			<p>
 				<span>
-					I&apos; a driven high school student who started web
-					development 1 year ago. What you should know about me is
-					that I&apos;m an average programmer. What I bring to the
-					tables is my drive to learn and my work ethic, but also my
-					communication skills, something that I&apos;ve spoken to
-					many recruiters about as a pain point when finding
-					candidates.
+					I&apos;m a driven high school student who started web
+					development 1 year ago. {'  '}
 				</span>
 				<span className='italic'>My favorite part of programming</span>{' '}
 				is the problem-solving aspect. I{' '}
 				<span className='underline'>love</span> the feeling of finally
 				figuring out a solution to a problem. My core stack is{' '}
 				<span className='font-medium'>
-					React, Next.js, Node.js, and MongoDB
+					React, Next.js, Node.js, and MongoDB.{' '}
 				</span>
-				. I am also familiar with TypeScript and Prisma. I am always
-				looking to learn new technologies. I am currently looking for a{' '}
-				<span className='font-medium'>full-time position</span> as a
-				software developer.
+				Most importantly, I am always willing to dive into something new
+				and unfamiliar and get up to speed.
+				<br />
+				<br />
+				One thing that you should know about me is that I am a strong
+				believer in VR apps (not games) I think that they&apos;re going
+				to go mainstream like how smartphones and the app store were
+				years ago; I&apos;m really getting into this development space
+				right now.
+				{''}
 			</p>
 
 			<p>
-				<span className='italic'>When I&apos;m not coding</span>, I
-				enjoy playing video games, watching movies, and playing with my
-				dog. I also enjoy{' '}
-				<span className='font-medium'>learning new things</span>. I am
-				currently learning about{' '}
-				<span className='font-medium'>history and philosophy</span>.
-				I&apos;m also learning how to play the guitar.
+				<br></br>
+				<span className='italic'>In my free time</span>, you&apos;ll
+				find me hanging out at hackathons, watching anime, and visiting
+				the bubble tea shop by my house. I also enjoy{' '}
+				<span className='font-medium'>self improvement</span>. I am
+				currently working on my public speaking and storytelling skills.
+				I&apos;m always seeking new opportuntities to learn and grow
+				both as a developer and a person.
 			</p>
 		</motion.section>
 	);

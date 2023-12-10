@@ -75,14 +75,14 @@ export const projectsData = [
     title: "Hawkeye",
     description:
       "Project for Hack The North 2023 that uses the AdHawk MindLink to allow blind/visually impaired people to know what the lecturer is writing on the board, using OCR and Google Cloud.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["Langchain", "GCP", "AdHawk MindLink SDK"],
     imageUrl: htnImg,
   },
   {
     title: "Spotify Clone",
     description:
       "A full stack app using Spotify's Official SDK. It plays music, retrieves lyrics, and censors profanity (togglable). I also added new themes",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["React", "Node JS", "Spotify API", "Bootstrap"],
     imageUrl: spottyImg,
   },
 ] as const;
